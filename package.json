@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Haamps/Testing-with-jest/issues"
   },
-  "homepage": "https://github.com/Haamps/Testing-with-jest#readme"
+  "homepage": "https://github.com/Haamps/Testing-with-jest#readme",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
