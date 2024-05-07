@@ -12,5 +12,8 @@ test('Pop should remove and return the top element of the stack', () => {
 });
 
 test('Peek should return the top element of the stack without removing it', () => {
-    expect(stack.peek()).toBeUndefined();
+    stack.push(15);
+    stack.push(25);
+    expect(stack.peek()).toBe(25);
+    expect(stack.peek()).toBe(25); // Ensure the element is still at the top
 });
